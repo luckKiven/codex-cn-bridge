@@ -148,24 +148,15 @@ codex-cn-bridge/
 
 ---
 
-## 💰 定价
-
-- **免费版**：开源基础功能
-- **专业版**：¥199（多模型负载均衡 + 日志审计 + 技术支持）
-- **企业版**：¥999（私有部署 + 定制开发 + 培训）
-
----
-
-## 📧 联系
-
-- **GitHub**: https://github.com/luckKiven/codex-cn-bridge
-- **ClawHub**: https://clawhub.ai
-
----
-
 ## 📄 许可
 
-MIT License
+MIT License - 完全开源，免费使用
+
+---
+
+## 🔗 链接
+
+- **GitHub**: https://github.com/luckKiven/codex-cn-bridge
 
 ---
 
