@@ -15,20 +15,8 @@
 
 ## 📦 安装
 
-### 方式 1：ClawHub 安装（推荐）
-
 ```bash
-# 1. 安装 skill
-openclaw skills install codex-cn-bridge
-
-# 2. 运行安装脚本（自动下载完整代码）
-/codex-cn-bridge install
-```
-
-### 方式 2：GitHub 下载
-
-```bash
-# 克隆完整代码
+# 克隆仓库
 git clone https://github.com/luckKiven/codex-cn-bridge.git
 
 # 复制到 skills 目录
@@ -203,5 +191,5 @@ Codex CLI 收到响应
 
 **版本：** 1.0.0  
 **作者：** jixiang  
-**许可：** MIT  
+**许可：** MIT（完全开源，免费使用）  
 **GitHub：** https://github.com/luckKiven/codex-cn-bridge

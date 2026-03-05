@@ -6,6 +6,7 @@
   "license": "MIT",
   "keywords": ["codex", "qwen", "国内模型", "协议转换", "AI 编程"],
   "repository": "https://github.com/luckKiven/codex-cn-bridge",
+"license": "MIT",
   "scripts": {
     "install": "scripts/install-package.ps1",
     "start": "scripts/start-proxy.ps1",
