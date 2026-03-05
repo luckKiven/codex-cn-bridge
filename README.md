@@ -19,17 +19,7 @@
 
 ## 📦 安装
 
-### 方式 1：ClawHub（推荐）
-
-```bash
-# 安装 skill
-openclaw skills install codex-cn-bridge
-
-# 下载完整代码
-/codex-cn-bridge install
-```
-
-### 方式 2：GitHub
+### GitHub 安装
 
 ```bash
 # 克隆仓库
