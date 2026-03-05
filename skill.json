@@ -1,0 +1,52 @@
+{
+  "name": "codex-cn-bridge",
+  "version": "1.0.0",
+  "description": "让 OpenAI Codex CLI 使用国内 AI 模型（阿里云 Qwen、Kimi、智谱 GLM 等），支持协议转换",
+  "author": "jixiang",
+  "license": "MIT",
+  "keywords": ["codex", "qwen", "国内模型", "协议转换", "AI 编程"],
+  "repository": "https://github.com/luckKiven/codex-cn-bridge",
+  "scripts": {
+    "install": "scripts/install-package.ps1",
+    "start": "scripts/start-proxy.ps1",
+    "stop": "scripts/stop-proxy.ps1",
+    "status": "scripts/check-proxy.ps1",
+    "test": "scripts/test-connection.ps1"
+  },
+  "config": {
+    "defaultPort": 3000,
+    "proxyPath": "~/.codex/cn-bridge",
+    "envFile": "~/.codex/cn-bridge.env"
+  },
+  "models": [
+    {
+      "name": "qwen3.5-plus",
+      "provider": "阿里云",
+      "description": "通用任务推荐"
+    },
+    {
+      "name": "qwen-coder-plus",
+      "provider": "阿里云",
+      "description": "编程专用"
+    },
+    {
+      "name": "qwen3-max",
+      "provider": "阿里云",
+      "description": "最强模型"
+    },
+    {
+      "name": "kimi-k2.5",
+      "provider": "月之暗面",
+      "description": "长文本处理"
+    },
+    {
+      "name": "glm-5",
+      "provider": "智谱",
+      "description": "通用任务"
+    }
+  ],
+  "requirements": {
+    "python": ">=3.8",
+    "packages": ["fastapi", "uvicorn", "httpx", "pyyaml", "python-dotenv"]
+  }
+}

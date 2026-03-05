@@ -1,0 +1,43 @@
+# Codex CN Bridge 模型配置
+# 格式：模型名称 → API 端点映射
+
+models:
+  # 阿里云通义千问 - qwen3.5-plus（主力推荐）
+  - name: qwen3.5-plus
+    model_id: qwen3.5-plus
+    api_base: https://coding.dashscope.aliyuncs.com/v1/chat/completions
+    env_key: QWEN_API_KEY
+    timeout: 60
+    description: "通用任务推荐，性价比高"
+
+  # 阿里云通义千问 - qwen-coder-plus（编程专用）
+  - name: qwen-coder-plus
+    model_id: qwen-coder-plus
+    api_base: https://coding.dashscope.aliyuncs.com/v1/chat/completions
+    env_key: QWEN_API_KEY
+    timeout: 60
+    description: "编程专用模型，代码生成更强"
+
+  # 阿里云通义千问 - qwen3-max（最强模型）
+  - name: qwen3-max
+    model_id: qwen3-max
+    api_base: https://coding.dashscope.aliyuncs.com/v1/chat/completions
+    env_key: QWEN_API_KEY
+    timeout: 60
+    description: "最强模型，适合复杂任务"
+
+  # 月之暗面 Kimi - kimi-k2.5
+  - name: kimi-k2.5
+    model_id: kimi-k2.5
+    api_base: https://api.moonshot.cn/v1/chat/completions
+    env_key: KIMI_API_KEY
+    timeout: 60
+    description: "长文本处理能力强"
+
+  # 智谱 GLM - glm-5
+  - name: glm-5
+    model_id: glm-5
+    api_base: https://open.bigmodel.cn/api/paas/v4/chat/completions
+    env_key: ZHIPU_API_KEY
+    timeout: 60
+    description: "通用任务，性价比高"
