@@ -15,13 +15,23 @@
 
 ## 📦 安装
 
-```bash
-# 克隆仓库
-git clone https://github.com/luckKiven/codex-cn-bridge.git
+### 方式 1：ClawHub 安装（推荐）
 
-# 复制到 skills 目录
+```bash
+openclaw skills install codex-cn-bridge
+```
+
+### 方式 2：GitHub 克隆
+
+```bash
+git clone https://github.com/luckKiven/codex-cn-bridge.git
 cp -r codex-cn-bridge ~/.openclaw/workspace/skills/
 ```
+
+### 方式 3：GitHub 下载 ZIP
+
+1. 下载：https://github.com/luckKiven/codex-cn-bridge/archive/refs/heads/main.zip
+2. 解压到 `~/.openclaw/workspace/skills/`
 
 ---
 
