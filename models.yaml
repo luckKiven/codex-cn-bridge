@@ -8,27 +8,19 @@ models:
     api_base: https://coding.dashscope.aliyuncs.com/v1/chat/completions
     env_key: QWEN_API_KEY
     timeout: 60
-    description: "通用任务推荐，性价比高，支持图片理解"
+    description: "通用任务推荐，性价比高"
 
-  # 阿里云通义千问 - qwen3-coder-plus（后端编码专用）
-  - name: qwen3-coder-plus
-    model_id: qwen3-coder-plus
+  # 阿里云通义千问 - qwen-coder-plus（编程专用）
+  - name: qwen-coder-plus
+    model_id: qwen-coder-plus
     api_base: https://coding.dashscope.aliyuncs.com/v1/chat/completions
     env_key: QWEN_API_KEY
     timeout: 60
-    description: "后端编码专用模型"
-
-  # 阿里云通义千问 - qwen3-coder-next（前端编码专用）
-  - name: qwen3-coder-next
-    model_id: qwen3-coder-next
-    api_base: https://coding.dashscope.aliyuncs.com/v1/chat/completions
-    env_key: QWEN_API_KEY
-    timeout: 60
-    description: "前端编码专用模型"
+    description: "编程专用模型，代码生成更强"
 
   # 阿里云通义千问 - qwen3-max（最强模型）
   - name: qwen3-max
-    model_id: qwen3-max-2026-01-23
+    model_id: qwen3-max
     api_base: https://coding.dashscope.aliyuncs.com/v1/chat/completions
     env_key: QWEN_API_KEY
     timeout: 60

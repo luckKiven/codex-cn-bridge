@@ -118,6 +118,50 @@ set QWEN_API_KEY=sk-your-key
 
 ---
 
+## 🛡️ 守护进程监控（推荐）
+
+**自动监控 qwen-proxy 服务，异常时自动重启并告警**
+
+### 启动守护进程
+
+```bash
+/codex-cn-bridge watchdog
+```
+
+### 查看守护进程状态
+
+```bash
+/codex-cn-bridge watchdog-status
+```
+
+### 查看监控日志
+
+```bash
+/codex-cn-bridge watchdog-logs
+```
+
+### 实时跟踪日志
+
+```bash
+/codex-cn-bridge watchdog-logs -Follow
+```
+
+### 停止守护进程
+
+```bash
+/codex-cn-bridge watchdog-stop
+```
+
+### 守护进程功能
+
+- ✅ **自动监控** - 每 30 秒检查服务状态
+- ✅ **自动重启** - 服务停止时自动重启
+- ✅ **健康检查** - 每 5 分钟执行 HTTP 健康检查
+- ✅ **异常告警** - 服务异常时主动汇报
+- ✅ **日志记录** - 完整记录运行日志
+
+---
+
 ## 📊 可用模型
 
 | 模型名称 | 提供商 | 适用场景 |
